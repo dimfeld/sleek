@@ -176,8 +176,7 @@ dependencies = [
 [[package]]
 name = "sqlformat"
 version = "0.2.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6b7b278788e7be4d0d29c0f39497a0eef3fba6bbc8e70d8bf7fde46edeaa9e85"
+source = "git+https://github.com/dimfeld/sqlformat-rs.git#087f0e2b7157e35e2f07319d9e0a9dd8bcae869b"
 dependencies = [
  "itertools",
  "nom",
